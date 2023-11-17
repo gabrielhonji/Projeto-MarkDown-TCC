@@ -1,0 +1,79 @@
+/* Web Settings */
+body {
+    padding: 2%;
+}
+
+/* Login Style */
+.login-container {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    width: 25%;
+    gap: 1%;
+}
+
+.area {
+    padding: 2rem 1rem;
+}
+
+.login-header-area {
+    text-align: center;
+}
+
+.login-area {
+    background: rgb(231,238,240);
+    background: linear-gradient(72deg, rgba(231,238,240,1) 0%, rgba(226,233,235,1) 100%);
+    border: 1px solid rgba(153, 153, 153, 0.434);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.page-title {
+    margin-top: 1.5rem;
+    font-size: 150%;
+}
+.btn-login {
+    width: 100%;
+}
+
+.footer-list {
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+/* Attendance Table */
+.attendance-container {
+    background: rgb(231,238,240);
+    background: linear-gradient(72deg, rgba(231,238,240,1) 0%, rgba(226,233,235,1) 100%);
+    border: 1px solid rgba(153, 153, 153, 0.434);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    width: 50%;
+    gap: 1%;
+}
+
+.attendance-header-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attendance-table-area {
+    
+}

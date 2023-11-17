@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../dist/img/markdown.ico" type="image/x-icon">
+    <meta name="description" content="Cadastre a quantidade de alunos presentes.">
+    <meta name="author" content="GFM Inc.">
+    <meta name="keywords" content="Attendance">
+    <title>Presença - Markdown</title>
+    <link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../dist/css/style.css">
+</head>
+<body>
+    <div class="attendance-container container-sm">
+        <div class="area attendance-header-area">
+            <h1 class="login-title">Presença de Alunos</h1>
+            <img src="../../dist/img/markdown.ico" alt="Logotipo Markdown" width="100px">
+        </div>
+        <div class="area attendance-table-area">
+            <form action="Enviar">
+                <div class="mb-4">
+                    <label for="inputAttendance" class="form-label">Quantidade de alunos presentes:</label>
+                    <input type="number" class="form-control" id="inputAttendance">
+                  </div>
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupClass">Turma</label>
+                    <select class="form-select" id="inputGroupClass">
+                      <option selected>---</option>
+                      <option value="1">1° ano Fundamental 1</option>
+                      <option value="2">2° ano Fundamental 1</option>
+                      <option value="3">3° ano Fundamental 1</option>
+                      <option value="4">4° ano Fundamental 1</option>
+                      <option value="5">5° ano Fundamental 1</option>
+                      <option value="6">6° ano Fundamental 2</option>
+                      <option value="7">7° ano Fundamental 2</option>
+                      <option value="8">8° ano Fundamental 2</option>
+                      <option value="9">9° ano Fundamental 2</option>
+                      <option value="10">1° ano Ensino Médio</option>
+                      <option value="11">2° ano Ensino Médio</option>
+                      <option value="12">3° ano Ensino Médio</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-login">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="../../dist/js/main.js"></script>
+</body>
+</html>

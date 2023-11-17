@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../dist/img/markdown.ico" type="image/x-icon">
+    <meta name="description" content="Login na plataforma Markdown.">
+    <meta name="author" content="GFM Inc.">
+    <meta name="keywords" content="Login">
+    <title>Login - Markdown</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/css/style.css">
+</head>
+<body>
+    <div class="login-container container-sm">
+        <div class="area login-header-area">
+            <img src="../dist/img/markdown.ico" alt="Logotipo Markdown" width="100px">
+            <h1 class="page-title">Faça login no Markdown</h1>
+        </div>
+        <div class="area login-area">
+            <form action="login">
+                <div class="mb-3">
+                  <label for="inputLogin" class="form-label">Login</label>
+                  <input type="text" class="form-control" id="inputLogin" aria-describedby="loginHelp">
+                  <div id="loginHelp" class="form-text">Após o login, você será direcionado para a sua área em questão.</div>
+                </div>
+                <div class="mb-4">
+                  <label for="inputPassword" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <button type="submit" class="btn btn-primary btn-login">Entrar</button>
+            </form>
+        </div>
+        <div class="area login-footer-area">
+            <ul class="footer-list">
+                <li class="footer-item"><a href="#" class="footer-link">Termos</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Privacidade</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Docs</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Suporte</a></li>
+            </ul>
+        </div>
+      </div>
+    <script src="../dist/js/main.js"></script>
+</body>
+</html>
